@@ -1,0 +1,19 @@
+Riesgos
+
+Describir el riesgo
+Usar escenarios de fracaso que sean medibles y accionables.
+
+“En situaciones de carga pico, los clientes experimentan latencias mayores a cinco segundos.”
+
+“Un atacante podría obtener información confidencial a través de un Ataque de intermediario (Man in the Middle).”
+
+¿Cómo identificamos riesgos?
+Requerimientos (Dificultad / Complejidad)
+Es importante conocer si el requerimiento es complejo, es decir si la dificultad de resolver este requerimiento es muy alta.
+Atributos de calidad (Incertidumbre)
+Es importante entender si sabemos o no sabemos cómo mejorar un atributo específico. Cuanta más incertidumbre hay en algo que detectamos que es importante, más alto es el riesgo de esa situación.
+Conocimiento del dominio (Riesgo prototípico)
+Es importante saber si lo que hemos implementado ya ha sido implementado o no, porque los dominios conocidos suelen tener riesgos prototípicos.
+
+Priorizar riesgos
+Es importante porque generalmente no podemos resolver todos, entonces si nos concentramos en resolver riesgos que no eran importantes, entonces estaremos invirtiendo mucho tiempo en algo que no era tan relevante. Debemos siempre tener en cuenta qué riesgos ponen en peligro el éxito o fracaso de la solución. Priorizamos nuestros riesgos y entendemos tanto nosotros como nuestros stakeholders que algunos riesgos no vamos a poder cubrirlos en el primer momento, sino que vamos a postergar el ataque o la mitigación de dichos riesgos para cuándo podamos invertir tiempo en ellos. Así los riesgos y los requerimientos van a ser priorizados y van a poder ser parte de nuestro plan organizado en dónde entendemos qué es lo más importante arquitectónicamente para resolver.

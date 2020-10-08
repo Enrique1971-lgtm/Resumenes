@@ -1,0 +1,17 @@
+¿Qué es un estilo de arquitectura?
+Es un conjunto de decisiones de diseño aplicadas a un contesto determinado. Las cuales nos permiten restringir decisiones de arquitectura específicas, esperando obtener beneficios en el sistema resultante. Este conjunto de decisiones suele sostenerse en experiencias pasadas propias o de terceros que fueron exitosas.
+
+
+Un estilo de arquitectura es una colección de decisiones de diseño, aplicables en un contexto determinado, que restringen las decisiones arquitectónicas específicas en ese contexto y obtienen beneficios en cada sistema resultante.
+Arquitectura, panorama y definición
+
+Panorama Arquitectónico
+Hay muchas librerías, muchos frameworks, mucho conocimiento arquitectónico implícito entre las comunidades.
+
+¿Qué es un estilo de arquitectura?
+Cuando hablamos de estilo de arquitectura hablamos de algo genérico.
+
+Un estilo de arquitectura es una colección de decisiones de diseño, aplicables a un contexto determinado, que restringen las decisiones arquitectónicas específicas en ese contexto y obtienen beneficios en cada sistema resultante.
+_Software Architecture: Foundations, Theory and Practice (Taylor, 2010)
+
+El Panorama Arquitectónico: Hay muchas librerías y tecnologías, como FLUX o MVC. Existen decisiones arquitectónicas como Micro Servicios, monolíticos.
