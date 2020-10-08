@@ -1,0 +1,31 @@
+
+
+    Programa principal y subrutinas: Es el estilo más básico donde se tiene una rutina y se manda a llamar otra subrutina en donde
+     la subrutina puede retornar o no un resultado, pero la rutina principal continua hasta que acabe la subrutina.
+
+    Orientada a Objetos: Una versión con esteroides del estilo anterior. Se utiliza para aplicaciones que vamos a mantener por
+     mucho tiempo. Tratamos de juntar el estado de la aplicación creando objetos los cuales tienen una interfaz publica 
+     (interfaz en este caso se refiere a una definición de funciones o estructura que esta clase puede implementar) donde la llamada 
+     no es solo una subrutina, sino objetos que interactuán entre si.
+
+    Arquitectura multinivel: Son diferentes componentes que se van a comunicar en un orden en especifico donde un componente 
+    principal crea el llamado a un componente inferior en algún momento, un ejemplo de esto son las aplicaciones cliente-servidor.
+
+    En este módulo se explica el estilo de arquitectura de llamada y retorno, consiste en que una parte A quiere comunicarse con una parte B, 
+    a veces con la necesidad de que b devuelva algo o no. Existen diferentes abstracciones de este suceso:
+
+1. Programa y subrutinas.
+
+Programa es el conjunto de instrucciones, sub rutina tiene la cualidad de ser fragmentos de código que utilizaremos muy a menudo, al que 
+necesitamos hacer un llamado.
+
+2. Orientado a objetos.
+
+Objetos tienen diferentes propiedades y métodos que se comunican entre sí. Objetos pertenecen a una clase que instancia objetos que se 
+llaman y otros responden.
+
+3. Cliente Servidor
+
+Una aplicación le habla a un servidor mediante una petición y servidor responde. Si ahondamos en este modelo el nivel de detalle aumenta.
+ Aplicación le pregunta a 
+REST/API y luego a server, y server devuelve.
